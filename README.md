@@ -1,17 +1,17 @@
 # 🧹 Data Cleaning in Snowflake – SQL Project
 
-This project demonstrates how to perform data cleaning, transformation, and feature extraction using **Snowflake SQL**. It is structured around a cumulative challenge and a series of tasks focusing on retail sales and customer data.
+I completed this project to demonstrate **data cleaning, transformation, and feature extraction** using Snowflake SQL. The project is based on a cumulative challenge involving retail sales and customer datasets.
 
 ## 📁 File
 
-- `project_8_data_cleaning_in_snowflake.sql` – Main SQL script containing data loading, transformations, and analytical queries.
+- `project_8_data_cleaning_in_snowflake.sql` – Main SQL script containing all data loading, cleaning, transformations, and analytical queries.
 
 ---
 
 ## 📌 Key Objectives
 
 ### ✅ Part 1: Cumulative Challenge – Top Products Sold in January 2023
-- Load and structure `ORDERS` table.
+- Load and structure the `ORDERS` table.
 - Clean city names using `TRIM()`.
 - Parse product descriptions using `SPLIT_PART()`.
 - Filter records for January 2023 using `TO_DATE()` and `BETWEEN`.
@@ -21,32 +21,32 @@ This project demonstrates how to perform data cleaning, transformation, and feat
 ### ✅ Part 2: Data Cleaning Tasks
 
 #### 🔢 Task 1: Standardize Phone Columns
-- Use `LTRIM()` to remove country codes or leading characters.
+- I used `LTRIM()` to remove country codes or leading characters from phone numbers.
 
 #### 🕒 Task 2: Calculate Customer Age
-- Use `DATEDIFF()` and `CURRENT_DATE()` to derive age from date of birth.
+- I derived age using `DATEDIFF()` and `CURRENT_DATE()` from date of birth.
 
 #### 🧹 Task 3: Remove Unwanted Characters
-- Use `TRIM()` and `CONCAT()` to detect and clean whitespace or invalid prefixes.
+- I applied `TRIM()` and `CONCAT()` to clean whitespace and invalid prefixes.
 
 #### ✂️ Task 4: Split Name Columns
-- Use `SPLIT_PART()` to separate first and last names from a full name string.
+- I separated first and last names from full name strings using `SPLIT_PART()`.
 
 #### 📅 Task 5: Convert Text to Date Format
-- Use `TO_DATE()` to parse and convert string columns to proper date types.
+- I used `TO_DATE()` to convert string columns into proper date types.
 
 #### 📆 Task 6: Compute "Days Since Last Transaction"
-- Generate a new feature using `DATEDIFF()` between `LastTransaction` and `CURRENT_DATE()`.
+- I generated a new feature using `DATEDIFF()` between `LastTransaction` and `CURRENT_DATE()`.
 
 #### 🔍 Task 7: Handle Missing Values
-- Use `IS NULL` and `IFF()` for deletion or imputation strategies.
+- I applied `IS NULL` and `IFF()` for deletion or imputation strategies.
 
 #### 🧬 Task 8: Eliminate Duplicates
-- Use `RANK()` and `QUALIFY` to filter out duplicated records based on email.
+- I filtered out duplicate records based on email using `RANK()` and `QUALIFY`.
 
 #### 💾 Task 9: Create and Query View
-- Combine all transformations into a view.
-- Export filtered inactive customers to CSV.
+- I combined all transformations into a view.
+- Exported filtered inactive customers to CSV.
 
 ---
 
@@ -64,7 +64,7 @@ This project demonstrates how to perform data cleaning, transformation, and feat
 
 ## 🧠 Learning Outcomes
 
-By the end of this project, you will be able to:
+By completing this project, I was able to:
 
 - Clean and transform messy data in Snowflake using SQL functions.
 - Derive meaningful features such as customer age and inactivity.
@@ -75,7 +75,7 @@ By the end of this project, you will be able to:
 
 ## 📤 Export Instructions
 
-- Use the Snowflake UI’s export feature (results pane) to download filtered results as CSV.
+- I used the Snowflake UI’s export feature (results pane) to download filtered results as CSV.
 
 ---
 
