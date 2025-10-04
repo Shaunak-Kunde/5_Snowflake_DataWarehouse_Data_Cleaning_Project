@@ -85,7 +85,8 @@ By completing this project, I was able to:
 - **Access to a Virtual Warehouse (e.g., COMPUTE_WH)**
 - **ACCOUNTADMIN or similar privileges to create tables and views**
 
----
+![Snowflake certified Data Engineering Professional Certificate_page-0001](https://github.com/user-attachments/assets/4b0949e3-83bd-41dd-8008-68c623fefaba)
+
 
 ## 🧪 Sample Queries
 
